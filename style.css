@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Make body fill the viewport */
+    background: linear-gradient(to bottom, #BBD58E, #ADD8E6);
+}
+.pokeForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* space between input and button */
+    margin-top: 50px;
+    
+}
+.pokeInput{
+    border: 0px solid black;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 35px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.pokeButton{
+    height: 40px;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: rgb(47, 234, 255);
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
