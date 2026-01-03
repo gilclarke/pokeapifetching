@@ -24,7 +24,7 @@ async function updateVals(pokemon){
         pokemon.abilities[0].ability.name;
     document.getElementById("abilityDesc").textContent = 
         englishEffect.effect;
-    const pokeType = pokemon
+    document.querySelector(".card").style.display = "block";
 }
 
 form.addEventListener("submit", async (event) => {
