@@ -33,6 +33,7 @@ body {
 }
 
 .card {
+    display: none;
     background: white;
     padding: 50px;
     box-shadow: 2px 2px 5px black;
